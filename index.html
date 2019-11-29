@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="dns-prefetch" href="//127.0.0.1">
+
+    <!-- AdobePatentID="P5086-US" -->
+    <!-- AdobePatentID="P5087-US" -->
+
+    <title>CC Libraries</title>
+    <script>
+        window.nodeRequire = (window.cep_node && window.cep_node.require) || window.require || function () {};
+        window.process = window.process || (window.cep_node && window.cep_node.process);
+        window.Buffer = undefined; // TODO: This is needed to prevent Ingest from thinking we're in node.js
+    </script>
+    
+</head>
+
+<body>
+    <div id="content"></div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
