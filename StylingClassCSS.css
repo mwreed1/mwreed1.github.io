@@ -121,6 +121,12 @@ nav li:hover, .button:hover{
   #home-portfolio .button {
     clear: both;
   }
+  #home-portfolio img{
+    width: 25%;
+    height: 25%;
+    max-width: 500px
+    object-fit: cover;
+  }
   body{
     font-size: 1.2em;
   }
