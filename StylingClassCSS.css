@@ -5,8 +5,6 @@
      background-color: rgb(250, 249, 235);
 }
 
-img{width: 100%;}
-
 #home-intro{
   text-align: center;
 }
@@ -16,7 +14,7 @@ box-sizing: border-box;
 font-size: 1em}
 
 header{
-  background-image: url("https://images.unsplash.com/photo-1541791230600-b62df7fa1cf0?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+  background-image: url(header_West_Campus1.jpg);
   background-repeat: no repeat;
   background-position: right-top;
   margin: 0px;
@@ -39,15 +37,18 @@ nav{
 
 nav ul{
   list-style-type: none;
-  padding: 5px 50px;
+  padding: 5px 30px;
+  text-align: center;
 }
 
 nav li {
-  margin: 5px 0;
+  text-align: center;
+  margin: 15px 0;
 }
 nav li a{
   color: white;
   font-size: 20px;
+  text-align: center;
   text-decoration: none;
 }
 
